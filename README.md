@@ -10,7 +10,7 @@ This guide assumes you are working on a UNIX system.
 * Execute the following command,
 
 ```
-docker run -it --rm \                                                           
+docker run -it --rm \
     --env="DISPLAY=host.docker.internal:0" \
     -v /tmp/.X11-unix:/tmp/.X11-unix \
     -v $(pwd)/files:/files \
